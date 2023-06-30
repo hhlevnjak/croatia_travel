@@ -1,0 +1,39 @@
+@keyframes slideRight {
+  0% {
+    left: -80vw;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+h3 {
+  margin: 0px;
+}
+
+.navigationHeader {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  padding: 20px 0px;
+  height: 35px;
+  width: 100vw;
+  z-index: 2;
+  background-color: white;
+}
+
+.headerCentral{
+  display: flex;
+}
+
+.headerCentral > img{
+  width: 50px;
+}
+
+.headerCentral > h3{
+  display: flex;
+  align-items: center;
+}
+

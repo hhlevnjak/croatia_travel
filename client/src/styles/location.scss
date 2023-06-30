@@ -1,0 +1,167 @@
+.location {
+  margin-top: 75px;
+}
+
+.locationHeader {
+  position: relative;
+}
+
+.locationHeader > img {
+  width: 100vw;
+}
+
+.locationHeaderName {
+  position: absolute;
+  bottom: -10px;
+  left: 0px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #00af87;
+  color: white;
+  min-width: 50vw;
+}
+
+.description {
+  padding: 20px;
+}
+
+.comment {
+  border-top: 2px solid black;
+  padding: 20px;
+}
+
+.writeReview {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 0px;
+  border-top: 2px solid black;
+}
+
+.commentForm {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  margin: 0px auto;
+}
+
+.commentRatings {
+  text-align: center;
+}
+
+.commentTextarea {
+  border-radius: 0px;
+  border: 1px solid black;
+}
+
+.commentTextarea:focus {
+  background-color: #00af87;
+  color: white;
+}
+
+.commentFormButton {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 0px;
+  padding: 10px 0px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.error {
+  text-align: center;
+  color: red;
+}
+
+.pages {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.pages > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10px 5px;
+  min-width: 20px;
+  border: 1px solid black;
+}
+
+.noReviews {
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 10px;
+}
+
+.signIn {
+  color: #00af87;
+}
+
+.pleaseSignIn {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.commentTitle {
+  font-weight: bold;
+}
+
+.commentBox {
+  display: flex;
+}
+
+.commentButtons {
+  margin-left: auto;
+}
+
+.starRow {
+  display: flex;
+  align-items: center;
+}
+
+.editButton {
+  border: 0px;
+  background-color: #00af87;
+  color: white;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+
+.deleteButton {
+  border: 0px;
+  background-color: #00af87;
+  color: white;
+  padding: 5px 10px;
+}
+
+.locationRatings {
+  padding: 20px 20px 0px 20px;
+  font-size: 1.25rem;
+}
+
+.avgRating {
+  display: flex;
+  justify-content: space-between;
+}
+
+.goBackRating {
+  background-color: #00af87;
+  color: white;
+  padding: 0px 10px;
+}
+
+.reviewsNumb {
+  font-size: 1rem;
+}
+
+.editForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.editFormTitle {
+  font-weight: bold;
+  text-align: center;
+}

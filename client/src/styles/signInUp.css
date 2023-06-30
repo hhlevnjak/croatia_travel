@@ -1,0 +1,52 @@
+.signInUp {
+  border: 2px solid black;
+  padding: 10px;
+  width: 80%;
+  position: absolute;
+  top: 75px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: auto;
+  font-size: 1.5rem;
+  box-shadow: 2px 2px rgba(136, 136, 136, 0.4549019608);
+}
+
+.signInUpTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.signInUpForm {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
+}
+
+.signInUpForm > input {
+  font-size: 1.25rem;
+  padding: 0px 15px;
+}
+
+.goBackButtonSignIn {
+  margin-top: 10px;
+}
+
+.goBackButtonSignUp, .goBackButtonSignIn, .signInUpForm > button {
+  font-size: 1.5rem;
+  background-color: black;
+  color: white;
+  border: 0px;
+  padding: 5px 0px;
+  width: 100%;
+}
+
+.dontHaveAcc {
+  font-size: 1rem;
+  margin-top: 20px;
+  text-align: center;
+}/*# sourceMappingURL=signInUp.css.map */

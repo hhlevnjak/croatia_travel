@@ -1,0 +1,39 @@
+.selection {
+  margin-top: 75px;
+  text-align: center;
+}
+
+.selectionTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 20px 0px;
+}
+
+.selectionElement {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.selectionElementTitle {
+  position: absolute;
+  bottom: -10px;
+  left: 0px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #00af87;
+  color: white;
+  min-width: 50vw;
+}
+
+.selectionElementTitleName {
+  text-align: left;
+}
+
+.selectionElementTitleStars {
+  font-size: 1rem;
+}
+
+.selectionImage {
+  width: 100vw;
+}/*# sourceMappingURL=selections.css.map */

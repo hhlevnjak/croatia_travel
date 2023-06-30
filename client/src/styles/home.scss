@@ -1,0 +1,146 @@
+.homeImageContainer {
+  position: relative;
+  margin-top: 75px;
+}
+
+.homeImage {
+  width: 100vw;
+  background-color: white;
+}
+
+.searchBar {
+  position: absolute;
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+}
+
+.searchBar > form > input {
+  font-size: 1.25rem;
+  padding: 10px;
+  border: none;
+  box-shadow: 2px 2px #88888874;
+}
+
+.searchBar > form > button {
+  display: none;
+}
+
+.searchResults {
+  position: absolute;
+  height: 30px;
+  width: 225.6px;
+  background-color: white;
+  padding: 0px 10px;
+  display: flex;
+  align-items: center;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  box-shadow: 2px 2px #88888874;
+}
+
+.searchResults:first-of-type {
+  border-top: 1px solid black;
+}
+
+.searchResults:last-of-type {
+  border-bottom: 1px solid black;
+}
+
+.searchResultsSingle {
+  position: absolute;
+  height: 30px;
+  width: 225.6px;
+  background-color: white;
+  padding: 0px 10px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+
+.imageContainer2 {
+  position: relative;
+  margin: 5vh 0px;
+}
+
+.bestThingsToVisitImg {
+  width: 100vw;
+}
+
+.bestThingsToVisitText {
+  position: absolute;
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  top: 0;
+  left: 5%;
+  bottom: 0;
+  right: 50%;
+  color: white;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.bestThingsToVisitTextDiv {
+  font-weight: 300;
+}
+
+.bestThingsToVisitText > button {
+  background-color: white;
+  border: 0px;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.topRatedList{
+  margin-top: 75px;
+}
+
+.topRatedHeader{
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.topRatedHeader > img {
+  width: 100vw;
+}
+
+.topRatedName {
+  position: absolute;
+  bottom: -10px;
+  left: 0px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #00af87;
+  color: white;
+  min-width: 50vw;
+}
+
+.topRatedPlace{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: fit-content;
+  padding: 10px;
+  background-color: #00af87;
+  color: white;
+}
+
+.topRatedPlaceIcon{
+  margin-right: 10px;
+  font-size: 1rem;
+}
+
+.topRatedText{
+  font-size: 1rem;
+  margin: auto;
+  font-weight: 300;
+}
