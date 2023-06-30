@@ -49,7 +49,7 @@ function WriteComment({
     const changeRating = { average, elementName };
 
     axios
-      .post(`http://localhost:5000/api/${apiName}`, {
+      .post(`https://croatia-travel.onrender.com/api/${apiName}`, {
         messageObject,
         changeRating,
       })

@@ -17,7 +17,7 @@ function SignUp() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    axios.get(`http://localhost:5000/api/usernames`).then((response) => {
+    axios.get(`https://croatia-travel.onrender.com/api/usernames`).then((response) => {
       setUsernamesList(response.data);
     });
   }, []);
@@ -45,7 +45,7 @@ function SignUp() {
           .then(() => {
             const objectToSend = { username };
             axios
-              .post("http://localhost:5000/api/usernames", objectToSend)
+              .post("https://croatia-travel.onrender.com/api/usernames", objectToSend)
               .catch((error) => {
                 console.error("Error:", error);
               });

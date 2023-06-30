@@ -24,7 +24,7 @@ function ShowComments({ commentsArrayPage, commentsArray, setCommentsArray }) {
     const average = NewAverageRating(iterationNo, commentsArray, `delete`);
 
     axios
-      .delete(`http://localhost:5000/api/${apiName}/${iterationNo}`, {
+      .delete(`https://croatia-travel.onrender.com/api/${apiName}/${iterationNo}`, {
         data: { average, name: destination.name },
       })
       .then((res) => {

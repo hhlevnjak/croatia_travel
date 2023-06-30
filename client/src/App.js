@@ -22,7 +22,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:5000/api`)
+      .get(`https://croatia-travel.onrender.com/api`)
       .then((res) => setDestinationsArray(res.data));
   }, []);
 

@@ -29,7 +29,7 @@ function EditComment({
       if (el.id === openEdit) return (iterationNo = i);
     });
     axios
-      .patch(`http://localhost:5000/api/${apiName}/${iterationNo}`, {
+      .patch(`https://croatia-travel.onrender.com/api/${apiName}/${iterationNo}`, {
         message: editText,
       })
       .then((res) => {

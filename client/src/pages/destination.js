@@ -33,7 +33,7 @@ function Destination() {
       });
     } else if (destination && !commentsArray) {
       const apiName = destination.name.split(" ").join("").toLowerCase();
-      axios.get(`http://localhost:5000/api/${apiName}`).then((res) => {
+      axios.get(`https://croatia-travel.onrender.com/api/${apiName}`).then((res) => {
         setCommentsArray(res.data);
       });
     }
