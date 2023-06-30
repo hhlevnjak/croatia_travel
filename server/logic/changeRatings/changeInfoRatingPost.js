@@ -11,7 +11,7 @@ const changeInfoRatingPost = (body, getArrayDestination) => {
 
   const newInfoArray = getDestinationsArray.map((el) => {
     if (el.name.toLowerCase() === elementNameCorrected) {
-      return { ...el, averageRating: body.changeRating.newRating };
+      return { ...el, averageRating: body.changeRating.average };
     } else return el;
   });
 
