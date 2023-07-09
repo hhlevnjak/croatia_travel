@@ -7,6 +7,12 @@ const getDestinationsArray = JSON.parse(
 const getArrayUsernames = JSON.parse(
   fs.readFileSync(`${__dirname}/../data/usernamesList.json`, `utf-8`)
 );
+
+const getComments = (destination) => {
+  // Once you replace this with a real DB (Mongo?), you'll be sending this as a search param into the DB
+  JSON.parse(fs.readFileSync(`${__dirname}/../data/${destination}.json`, `utf-8`));
+};
+
 const getArrayDubrovnik = JSON.parse(
   fs.readFileSync(`${__dirname}/../data/comments/dubrovnik.json`, `utf-8`)
 );

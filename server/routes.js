@@ -5,6 +5,7 @@ const router = express.Router();
 const {
   getDestinationsList,
   getUsernamesList,
+  getDestinationComments,
   getDubrovnikComments,
   getBiogradComments,
   getKrkaComments,
@@ -63,6 +64,7 @@ const {
 
 router.route(`/api`).get(getDestinationsList);
 router.route(`/api/usernames`).get(getUsernamesList);
+router.route(`/api/destination/:id`).get(getDestinationComments);
 router.route(`/api/dubrovnik`).get(getDubrovnikComments);
 router.route(`/api/funparkmirnovecinbiograd`).get(getBiogradComments);
 router.route(`/api/krka`).get(getKrkaComments);

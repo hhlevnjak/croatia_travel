@@ -1,6 +1,7 @@
 const {
   getDestinationsArray,
   getUsernamesArray,
+  getComments,
   getArrayDubrovnik,
   getArrayBiograd,
   getArrayKrka,
@@ -20,6 +21,21 @@ const getDestinationsList = (req, res) => {
 
 const getUsernamesList = (req, res) => {
   res.status(200).json(getUsernamesArray);
+};
+
+const getDestinationComments = (req, res) => {
+  try {
+    const destination = req.params.id;
+    if (destination) {
+      const comments = getComments(destination.toLowerCase());
+  
+      return res.status(200).json(comments);
+
+    }
+    return res.status(400).json({ message: "Destination not provided." })
+  } catch (err) {
+    return res.status(400).json({ message: "Getting destination comments failed." });
+  }
 };
 
 const getDubrovnikComments = (req, res) => {
@@ -68,6 +84,7 @@ const getZagrebComments = (req, res) => {
 module.exports = {
   getDestinationsList,
   getUsernamesList,
+  getDestinationComments,
   getDubrovnikComments,
   getBiogradComments,
   getKrkaComments,
